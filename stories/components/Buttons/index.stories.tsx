@@ -1,8 +1,8 @@
 import React from 'react';
 import { Story } from '@storybook/react';
-import { InterfaceButton } from '../../prototypes'
-import { Button } from './';
-import { theme } from '../../theme'
+import { InterfaceButton } from '../../../src/prototypes'
+import { Button } from '../../../src/components/Button';
+import { theme } from '../../../src/theme'
 
 export default {
   title: 'Components/Buttons',

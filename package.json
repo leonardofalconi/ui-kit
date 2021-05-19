@@ -5,8 +5,10 @@
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "storybook": "start-storybook -p 8080",
-    "build": "tsc -p ."
+    "start": "start-storybook -p 8080",
+    "server": "npx http-server ./public",
+    "build:storybook": "build-storybook -o ./public",
+    "build:library": "tsc -p ."
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^6.2.9",
